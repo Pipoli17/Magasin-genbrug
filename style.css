@@ -3,28 +3,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: grid; /* Bruger CSS Grid Layout til at centrere indholdet */
-    min-height: 100vh; /* Sørger for at siden fylder hele skærmen */
+    background-color:#ffff51;
 }
 
-header, footer {
+header {
     background-color: #ffff51;
     color: #000;
     padding: 50px 20px;
     padding: 10px 20px;
-    grid-column: 1 / -1; /* Udvider header og footer til at fylde hele grid'en */
 }
 
+.title {
+    text-align: center; /* Centrer teksten */
+}
+
+
+footer {
+    background-color: #ffff51;
+    color: #000;
+    padding: 50px 20px;
+    padding: 10px 20px;
+    
+    
+}
+nav {
+    border-bottom: 1px solid #000;
+}
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center; /* Centrer teksten */
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 100px;
+    
 }
 
 nav ul li a {
